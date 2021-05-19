@@ -1,0 +1,8 @@
+#!/bin/sh
+sleep 1
+echo $FLAG > /flag
+cd /app/
+
+# start your app by `su ctf -c "..."`
+
+sleep infinity

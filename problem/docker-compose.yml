@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  node:
+    build: .
+    restart: always
+    ports:
+      - "10001:80"
+    environment: 
+      - FLAG=FLAG{00000000000000000000000000000000}

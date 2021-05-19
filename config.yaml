@@ -1,0 +1,20 @@
+basic:
+  name:
+  id:  # 身份证
+  contact: # 电话号码
+  email: # 邮箱
+  bank_id: # 银行卡号
+  bank_name:  # 开户行
+
+problem:
+  name: # 题目名字
+  type: # 类型，会自动大写
+  difficulty: # 1简单 2中等 3困难
+  description: # 描述
+  dynamic: TRUE # 是否为动态靶机（动态靶机会自动导出镜像
+  point: # 知识点
+    - PHP
+  prompt: # 简单步骤
+    - 访问网站，审计源码，找到FLAG
+  # comment: # 选填 备注
+  # flag: # 选填 flag，如果是从docker-compose.yml中自动注入的则会自动抽取没有的话得你自己填进来
