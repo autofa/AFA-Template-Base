@@ -11,7 +11,6 @@ problem:
   type: # 类型，会自动大写
   difficulty: # 1简单 2中等 3困难
   description: # 描述
-  dynamic: TRUE # 是否为动态靶机（动态靶机会自动导出镜像
   point: # 知识点
     - PHP
   prompt: # 简单步骤
